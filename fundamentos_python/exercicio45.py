@@ -9,7 +9,7 @@ maior que 6 letras escreva "Seu nome é muito grande".
 primeiro_nome = input('Digite o seu nome: ')
 numero_letras_do_nome = len(primeiro_nome)
 
-nome_curto = numero_letras_do_nome < 5
+nome_curto = numero_letras_do_nome < 5 
 nome_normal = numero_letras_do_nome >= 5 and numero_letras_do_nome < 7
 nome_grande = numero_letras_do_nome > 6
 
