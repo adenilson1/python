@@ -21,4 +21,4 @@ else:
     print(f'{primeiro_nome}, seu nome é grande')
 
 
-
+print(numero_letras_do_nome)

@@ -13,8 +13,7 @@ TARDE = 12
 NOITE = 18
 
 bom_dia = resposta >= DIA and resposta < TARDE
-boa_tarde = resposta>= TARDE and resposta < NOITE
-boa_noite = resposta>= NOITE 
+boa_tarde = resposta>= TARDE and resposta < NOITE 
 
 if bom_dia:
     print(f'Bom dia são {resposta:.2f} horas')
