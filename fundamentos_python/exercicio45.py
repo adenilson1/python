@@ -11,7 +11,7 @@ numero_letras_do_nome = len(primeiro_nome)
 
 nome_curto = numero_letras_do_nome < 5 
 nome_normal = numero_letras_do_nome >= 5 and numero_letras_do_nome < 7
-nome_grande = numero_letras_do_nome > 6
+
 
 if nome_curto:
     print(f'{primeiro_nome}, seu nome é curto')
