@@ -13,11 +13,14 @@ TARDE = 12
 NOITE = 18
 
 bom_dia = hora >= DIA and hora < TARDE
-boa_tarde = hora>= TARDE and hora < NOITE 
+boa_tarde = hora >= TARDE and hora < NOITE
+boa_noite = hora >= NOITE and hora < 24
 
 if bom_dia:
     print(f'Bom dia são {hora:.2f} horas')
 elif boa_tarde:
     print(f'Boa tarde são {hora:.2f} horas')
-else:
+elif boa_noite:
     print(f'Boa noite são {hora:.2f} horas')
+else:
+    print('Digite uma hora valida')
