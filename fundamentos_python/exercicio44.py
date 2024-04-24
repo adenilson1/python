@@ -6,18 +6,18 @@ e Boa noite 18-23
 """
 
 pergunta = input('Que horas são ?: ')
-resposta = float(pergunta)
+hora = float(pergunta)
 
 DIA = 0
 TARDE = 12
 NOITE = 18
 
-bom_dia = resposta >= DIA and resposta < TARDE
-boa_tarde = resposta>= TARDE and resposta < NOITE 
+bom_dia = hora >= DIA and hora < TARDE
+boa_tarde = hora>= TARDE and hora < NOITE 
 
 if bom_dia:
-    print(f'Bom dia são {resposta:.2f} horas')
+    print(f'Bom dia são {hora:.2f} horas')
 elif boa_tarde:
-    print(f'Boa tarde são {resposta:.2f} horas')
+    print(f'Boa tarde são {hora:.2f} horas')
 else:
-    print(f'Boa noite são {resposta:.2f} horas')
+    print(f'Boa noite são {hora:.2f} horas')
