@@ -23,6 +23,9 @@ while True:
     if operador not in operador_valido:
         print('Operador inválido')
         continue
+    if len(operador) > 1:
+        print('Escolha apenas um operador')
+        continue
 
     match operador:
         case '+':
