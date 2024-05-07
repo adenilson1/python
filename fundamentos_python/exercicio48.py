@@ -6,6 +6,8 @@ while True:
     numero_2 = input('Digite outro numero: ')
     operador = input('Digite um operador: +-*/: ')
     numeros_validos = None
+    n_1 = 0
+    n_2 = 0
 
     print(25 * '-')
 
