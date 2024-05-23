@@ -1,5 +1,5 @@
 """JOGO DA ADIVINHAÇÃO"""
-"""ACERTER O NUMERO"""
+"""ACERTE O NUMERO"""
 numero_secreto = 42
 numero_de_tentivas = 3
 
